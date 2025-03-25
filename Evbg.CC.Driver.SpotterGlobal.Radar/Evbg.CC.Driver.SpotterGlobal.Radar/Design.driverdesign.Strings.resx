@@ -1,0 +1,320 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+
+	<data name="DisplayNameRadarServerServerEvent">
+		<value>Server Event</value>
+	</data>
+	<data name="DescriptionRadarServerServerEvent">
+		<value>Generic Server Event</value>
+	</data>
+		<data name="DisplayNameServerEventSampleProperty">
+		<value>Sample Property</value>
+	</data>
+	<data name="DescriptionServerEventSampleProperty">
+		<value>Sample Property</value>
+	</data>
+	<data name="DisplayNameRadarServerKeepAliveInterval">
+		<value>Keep Alive Interval</value>
+	</data>
+	<data name="DescriptionRadarServerKeepAliveInterval">
+		<value>Time interval in seconds between web service connectivity checks.</value>
+	</data>
+	<data name="DisplayNameRadarServerDevicePopulationBatchSize">
+		<value>Device Population Batch Size</value>
+	</data>
+	<data name="DescriptionRadarServerDevicePopulationBatchSize">
+		<value>Maximum devices allowed to populate at a time.</value>
+	</data>
+	<data name="DisplayNameRadarServerLogLevel">
+		<value>Log Level</value>
+	</data>
+	<data name="DescriptionRadarServerLogLevel">
+		<value>Logging level of the driver.</value>
+	</data>
+	<data name="DisplayNameRadarServerListnerPort">
+		<value>ListnerPort</value>
+	</data>
+	<data name="DescriptionRadarServerListnerPort">
+		<value>Example Property for Server</value>
+	</data>
+	<data name="DisplayNameRadarServerSimulationMode">
+		<value>Simulation Mode</value>
+	</data>
+	<data name="DescriptionRadarServerSimulationMode">
+		<value>When true, the connector simulates the subsystem instead of connecting to a real one.</value>
+	</data>
+	<data name="DisplayNameRadarServerPollingInterval">
+		<value>Polling Interval</value>
+	</data>
+	<data name="DescriptionRadarServerPollingInterval">
+		<value>Time interval in miliseconds between web service connectivity checks.</value>
+	</data>
+	<data name="DisplayNameRadarServerRefreshDevices">
+		<value>Refresh Devices</value>
+	</data>
+	<data name="DescriptionRadarServerRefreshDevices">
+		<value>Refresh the devices to match the current configuration on Generic server.</value>
+	</data>
+	<data name="DisplayNameRadarServerRefreshDevicesrefreshProperties">
+		<value>Refresh Properties</value>
+	</data>
+	<data name="DescriptionRadarServerRefreshDevicesrefreshProperties">
+		<value>Synchronise device properties and labels.</value>
+	</data>
+	<data name="DisplayNameRadarServerSampleServerMethod">
+		<value>Sample Server Method</value>
+	</data>
+	<data name="DescriptionRadarServerSampleServerMethod">
+		<value>Sample Server Method</value>
+	</data>
+	<data name="DisplayNameRadarDeviceEvent">
+		<value>Device Event</value>
+	</data>
+	<data name="DescriptionRadarDeviceEvent">
+		<value>Generic Device Event</value>
+	</data>
+		<data name="DisplayNameDeviceEventSampleProperty">
+		<value>Sample Property</value>
+	</data>
+	<data name="DescriptionDeviceEventSampleProperty">
+		<value>Sample Property</value>
+	</data>
+	<data name="DisplayNameRadarAlarmTrackRecieved">
+		<value>Alarm Track Recieved</value>
+	</data>
+	<data name="DescriptionRadarAlarmTrackRecieved">
+		<value>Alarm Track Recieved</value>
+	</data>
+		<data name="DisplayNameAlarmTrackRecievedTrackId">
+		<value>Track Id</value>
+	</data>
+	<data name="DescriptionAlarmTrackRecievedTrackId">
+		<value>Track Id</value>
+	</data>
+	<data name="DisplayNameAlarmTrackRecievedObjectCategory">
+		<value>Object Category</value>
+	</data>
+	<data name="DescriptionAlarmTrackRecievedObjectCategory">
+		<value>Object Category</value>
+	</data>
+	<data name="DisplayNameAlarmTrackRecievedConfidence">
+		<value>Confidence</value>
+	</data>
+	<data name="DescriptionAlarmTrackRecievedConfidence">
+		<value>Confidence</value>
+	</data>
+	<data name="DisplayNameAlarmTrackRecievedLongitude">
+		<value>Longitude</value>
+	</data>
+	<data name="DescriptionAlarmTrackRecievedLongitude">
+		<value>Longitude</value>
+	</data>
+	<data name="DisplayNameAlarmTrackRecievedBearing">
+		<value>Bearing</value>
+	</data>
+	<data name="DescriptionAlarmTrackRecievedBearing">
+		<value>Bearing</value>
+	</data>
+	<data name="DisplayNameAlarmTrackRecievedVelocity">
+		<value>Velocity</value>
+	</data>
+	<data name="DescriptionAlarmTrackRecievedVelocity">
+		<value>Velocity</value>
+	</data>
+	<data name="DisplayNameAlarmTrackRecievedIntialAlarmDateTime">
+		<value>Intial Alarm Date Time</value>
+	</data>
+	<data name="DescriptionAlarmTrackRecievedIntialAlarmDateTime">
+		<value>Intial Alarm Date Time</value>
+	</data>
+	<data name="DisplayNameRadarId">
+		<value>ID</value>
+	</data>
+	<data name="DescriptionRadarId">
+		<value>Unique identifier.</value>
+	</data>
+	<data name="DisplayNameRadarParentId">
+		<value>Parent ID</value>
+	</data>
+	<data name="DescriptionRadarParentId">
+		<value>The parent device ID</value>
+	</data>
+	<data name="DisplayNameRadarDeviceName">
+		<value>DeviceName</value>
+	</data>
+	<data name="DescriptionRadarDeviceName">
+		<value>Device Name</value>
+	</data>
+	<data name="DisplayNameRadarGetDeviceDetails">
+		<value>Get Device Details</value>
+	</data>
+	<data name="DescriptionRadarGetDeviceDetails">
+		<value>Get Device Details</value>
+	</data>
+	<data name="DisplayNameRadarGetDeviceDetailsDeviceId">
+		<value>Device Id</value>
+	</data>
+	<data name="DescriptionRadarGetDeviceDetailsDeviceId">
+		<value>Device Id</value>
+	</data>
+	<data name="DisplayNameZoneTrackUpdate">
+		<value>Track Update</value>
+	</data>
+	<data name="DescriptionZoneTrackUpdate">
+		<value>Track Update</value>
+	</data>
+		<data name="DisplayNameTrackUpdateAltitude">
+		<value>Altitude</value>
+	</data>
+	<data name="DescriptionTrackUpdateAltitude">
+		<value>Altitude</value>
+	</data>
+	<data name="DisplayNameTrackUpdateVelocity">
+		<value>Velocity</value>
+	</data>
+	<data name="DescriptionTrackUpdateVelocity">
+		<value>Velocity</value>
+	</data>
+	<data name="DisplayNameTrackUpdateBearing">
+		<value>Bearing</value>
+	</data>
+	<data name="DescriptionTrackUpdateBearing">
+		<value>Bearing</value>
+	</data>
+	<data name="DisplayNameZoneId">
+		<value>ID</value>
+	</data>
+	<data name="DescriptionZoneId">
+		<value>Unique identifier.</value>
+	</data>
+	<data name="DisplayNameZoneParentId">
+		<value>Parent ID</value>
+	</data>
+	<data name="DescriptionZoneParentId">
+		<value>The parent device ID</value>
+	</data>
+	<data name="DisplayNameZoneTypeString">
+		<value>TypeString</value>
+	</data>
+	<data name="DescriptionZoneTypeString">
+		<value>Type String</value>
+	</data>
+	<data name="DisplayNameZoneActive">
+		<value>Active</value>
+	</data>
+	<data name="DescriptionZoneActive">
+		<value>Active</value>
+	</data>
+	<data name="DisplayNameZoneDeviceName">
+		<value>DeviceName</value>
+	</data>
+	<data name="DescriptionZoneDeviceName">
+		<value>Device Name</value>
+	</data>
+	<data name="DisplayNameUDCId">
+		<value>ID</value>
+	</data>
+	<data name="DescriptionUDCId">
+		<value>Unique identifier.</value>
+	</data>
+	<data name="DisplayNameUDCParentId">
+		<value>Parent ID</value>
+	</data>
+	<data name="DescriptionUDCParentId">
+		<value>The parent device ID</value>
+	</data>
+	<data name="DisplayNameUDCDeviceName">
+		<value>DeviceName</value>
+	</data>
+	<data name="DescriptionUDCDeviceName">
+		<value>Device Name</value>
+	</data>
+	<data name="DisplayNameCameraId">
+		<value>ID</value>
+	</data>
+	<data name="DescriptionCameraId">
+		<value>Unique identifier.</value>
+	</data>
+	<data name="DisplayNameCameraParentId">
+		<value>Parent ID</value>
+	</data>
+	<data name="DescriptionCameraParentId">
+		<value>The parent device ID</value>
+	</data>
+	<data name="DisplayNameCameraDeviceName">
+		<value>DeviceName</value>
+	</data>
+	<data name="DescriptionCameraDeviceName">
+		<value>Example Property for Device</value>
+	</data>
+    <data name="DisplayNameGeospatialAwareEvent">
+		<value>Geospatial Aware Event</value>
+	</data>
+	<data name="DescriptionGeospatialAwareEvent">
+		<value>Geospatial Aware Event</value>
+	</data>
+		<data name="DisplayNameGeospatialAwareEventDescription">
+		<value>Description</value>
+	</data>
+	<data name="DescriptionGeospatialAwareEventDescription">
+		<value>Event description.</value>
+	</data>
+</root>

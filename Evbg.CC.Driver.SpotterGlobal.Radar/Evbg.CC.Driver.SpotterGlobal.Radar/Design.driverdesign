@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<exampleModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="09688583-9102-4fcd-ae49-1bfe8efc314d" xmlns="http://schemas.microsoft.com/dsltools/DriverDesign">
+  <contractClasses>
+    <exampleModelHasContractClasses Id="7fdbdff8-16c3-4b3a-bb9d-b3ea2f6b8729">
+      <contractClass Id="9f18da99-448d-4aff-bef2-5682f542e696" productName="Radar Server" productUrl="https://www.spotterglobal.com/" productDescription="Radar Server" productCategory="Other" productImage="Images.spotter.jpeg" productImageCaption="Radar" manufacturerName="Spotter Global" manufacturerDescription="Spotter Global, founded in 2009, develops Compact Surveillance Radar for military and commercial security. Based in Orem, Utah, it ensures high-quality, U.S.-made products with a global reach." manufacturerUrl="https://www.spotterglobal.com/" manufacturerSupportUrl="https://www.spotterglobal.com/contactus" manufacturerImage="Images.spotter.jpeg" manufacturerImageCaption="Spotter Global" secureDevice="false" networkDevice="true" name="RadarServer" customAttributes="DeviceOverridesChildOnlineState" productImage16x16="Images.DeviceIcons.server16.jpg" productImage24x24="Images.DeviceIcons.server24.jpg" productImage32x32="Images.DeviceIcons.server32.jpg" productImage64x64="Images.DeviceIcons.server64.jpg" videoExportFileExtension="" connectableDevice="false" raisesCustomStates="false" hidden="false">
+        <contractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="17b6da6e-5b45-4820-bf75-e37968f9a2f6">
+            <contractPropertyClass Id="4c654f15-32c2-474a-9f78-f85b825c4e48" name="KeepAliveInterval" type="int" customAttributes="[CNL.IPSecurityCenter.Driver.Attributes.Validation.IntegerConstraint(MinValue=0, MaxValue=int.MaxValue)]" displayName="Keep Alive Interval" description="Time interval in seconds between web service connectivity checks." category="Advanced" deviceWizard="false" defaultValue="10" minimumValue="0" maximumValue="None" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="98ba2173-9545-4ed1-b7d5-79535b14004a">
+            <contractPropertyClass Id="92276a6f-a204-4ca5-ac99-4bd0a2f9dc37" name="DevicePopulationBatchSize" type="int" customAttributes="[CNL.IPSecurityCenter.Driver.Attributes.Validation.IntegerConstraint(MinValue=20, MaxValue=100)]" displayName="Device Population Batch Size" description="Maximum devices allowed to populate at a time." category="Advanced" deviceWizard="false" defaultValue="50" minimumValue="20" maximumValue="100" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="8b40d072-e164-4d21-92f7-f7f9655164cf">
+            <contractPropertyClass Id="c1fab3ab-595d-46b4-8372-44f7a99ac462" name="LogLevel" type="CNL.IPSecurityCenter.Driver.Utility.Logging.LogLevel" displayName="Log Level" description="Logging level of the driver." category="Advanced" deviceWizard="false" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="ecb15614-4cb3-4ec5-9c03-a57c600c6488">
+            <contractPropertyClass Id="e42ff6cd-5cca-4ea4-be1f-f6875b6f5c1b" name="ListnerPort" type="int" displayName="ListnerPort" description="Example Property for Server" defaultValue="6588" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="66ad336a-8110-4f26-954b-980e2b7fc208">
+            <contractPropertyClass Id="4e8d21c2-3b6e-4ef4-a943-9a9381040e5d" name="SimulationMode" type="bool" displayName="Simulation Mode" description="When true, the connector simulates the subsystem instead of connecting to a real one." category="Advanced" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="306f8978-2ea3-431e-8732-00f0f1b8c81b">
+            <contractPropertyClass Id="123a55f5-464c-40d9-8c2b-6a0d78be61cd" name="PollingInterval" type="int" customAttributes="[CNL.IPSecurityCenter.Driver.Attributes.Validation.IntegerConstraint(MinValue=0, MaxValue=int.MaxValue)]" displayName="Polling Interval" description="Time interval in miliseconds between web service connectivity checks." category="Advanced" deviceWizard="false" defaultValue="1000" minimumValue="0" maximumValue="None" />
+          </contractClassHasContractPropertyClasses>
+        </contractPropertyClasses>
+        <contractMethodClasses>
+          <contractClassReferencesContractMethodClasses Id="b7c65800-594d-4db6-b330-4f898c32ac64">
+            <contractMethodClassMoniker Id="f4c38fb9-a2fa-40f6-9c6e-358e4a20ddb6" />
+          </contractClassReferencesContractMethodClasses>
+          <contractClassReferencesContractMethodClasses Id="47c8347a-c22e-4718-891b-8b3076d56f2c">
+            <contractMethodClassMoniker Id="896d7593-e927-49d9-a390-fa3ef0e6766c" />
+          </contractClassReferencesContractMethodClasses>
+        </contractMethodClasses>
+        <contractEventClasses>
+          <contractClassReferencesContractEventClasses Id="44f902e2-00ab-43ce-87a0-b2ca704882de">
+            <contractEventClassMoniker Id="12704d52-2054-4d5d-bcf1-6af7a781e886" />
+          </contractClassReferencesContractEventClasses>
+        </contractEventClasses>
+        <contractDocumentationClass>
+          <contractClassReferencesContractDocumentationClass Id="bd532fe3-c1f3-4927-b463-417a0c74599f">
+            <contractDocumentationClassMoniker Id="b4e03e5f-f88a-4ffc-a754-423f03dec16d" />
+          </contractClassReferencesContractDocumentationClass>
+        </contractDocumentationClass>
+      </contractClass>
+    </exampleModelHasContractClasses>
+    <exampleModelHasContractClasses Id="cefbff7a-5f89-4f2e-8fd1-a5a6df1acd51">
+      <contractClass Id="2dd4b820-8647-466e-9d75-91cb3600149b" productName="Radar Device" productDescription="Radar" productCategory="Other" productImageCaption="Radar" manufacturerName="Spotter Global" manufacturerDescription="Spotter Global, founded in 2009, develops Compact Surveillance Radar for military and commercial security. Based in Orem, Utah, it ensures high-quality, U.S.-made products with a global reach." manufacturerUrl="https://www.spotterglobal.com/" manufacturerSupportUrl="https://www.spotterglobal.com/contactus" manufacturerImage="Images.spotter.jpeg" manufacturerImageCaption="Spotter Global" secureDevice="false" networkDevice="false" name="Radar" customAttributes="DeviceOverridesChildOnlineState" productImage16x16="Images.DeviceIcons.radar16.png" productImage24x24="Images.DeviceIcons.radar24.png" productImage32x32="Images.DeviceIcons.radar32.png" productImage64x64="Images.DeviceIcons.radar64.png" videoExportFileExtension="" connectableDevice="false" raisesCustomStates="true" hidden="false">
+        <contractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="b594ae5d-bba9-4a79-9ab9-ccaf49565ca0">
+            <contractPropertyClass Id="e7dda062-b0d9-4195-a71b-1a5d1e277ea1" name="Id" customAttributes="[CNL.IPSecurityCenter.Driver.Attributes.Validation.StringConstraint(&quot;The ID must not be empty&quot;,AllowNull = false,AllowEmpty = false)]" displayName="ID" description="Unique identifier." readOnly="true" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="d31d162e-066b-4748-87da-c0d08d1109a6">
+            <contractPropertyClass Id="2002b2f9-7cd4-4365-8093-bafc57fd831b" name="ParentId" customAttributes="[CNL.IPSecurityCenter.Driver.Attributes.Validation.StringConstraint(&quot;The API key must not be empty&quot;,AllowNull = false)]" displayName="Parent ID" description="The parent device ID" readOnly="true" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="11fb6d36-e2a9-4fae-b161-363f418e8727">
+            <contractPropertyClass Id="a4b6e3e8-72cd-4e11-b004-8eb122bc7c52" name="DeviceName" displayName="DeviceName" description="Device Name" defaultValue="&quot;&quot;" />
+          </contractClassHasContractPropertyClasses>
+        </contractPropertyClasses>
+        <contractMethodClasses>
+          <contractClassReferencesContractMethodClasses Id="8c48545e-1f36-44d0-905c-8d84ec71fb5e">
+            <contractMethodClassMoniker Id="81f16a50-54ce-47a6-b9c6-269f95c13ebf" />
+          </contractClassReferencesContractMethodClasses>
+        </contractMethodClasses>
+        <contractEventClasses>
+          <contractClassReferencesContractEventClasses Id="4363fcfd-c4c6-4579-8770-cdd9ec85dfa4">
+            <contractEventClassMoniker Id="65cb1061-78f2-4390-9562-a18b0d5b51da" />
+          </contractClassReferencesContractEventClasses>
+          <contractClassReferencesContractEventClasses Id="1355ba73-01fb-44e8-835a-e07c3ab63e2d">
+            <contractEventClassMoniker Id="b5e8a535-311f-43d5-aad2-dda06f192da4" />
+          </contractClassReferencesContractEventClasses>
+        </contractEventClasses>
+        <builtInInterfaceClasses>
+          <contractClassReferencesBuiltInInterfaceClasses Id="c9cf4f0a-18d8-4b5c-bebc-e6fac6ff0f4c">
+            <builtInInterfaceClassMoniker Id="f1c2c380-50b5-4110-b0bd-c5ca9d9d915d" />
+          </contractClassReferencesBuiltInInterfaceClasses>
+          <contractClassReferencesBuiltInInterfaceClasses Id="c20966bf-afb2-4ab2-983c-d4c882f0d298">
+            <builtInInterfaceClassMoniker Id="6d3057af-3a37-46e8-9f67-1a70d39ebc49" />
+          </contractClassReferencesBuiltInInterfaceClasses>
+        </builtInInterfaceClasses>
+        <customStateClasses>
+          <contractClassReferencesCustomStateClasses Id="7485406b-0bcf-47bb-8e4c-37a7eb4d2e25">
+            <customStateClassMoniker Id="05052f01-a0b7-458d-bcaa-8bf7801f59a6" />
+          </contractClassReferencesCustomStateClasses>
+        </customStateClasses>
+      </contractClass>
+    </exampleModelHasContractClasses>
+    <exampleModelHasContractClasses Id="891c88c3-6934-43bd-aa17-eeec45fda2b7">
+      <contractClass Id="def074ab-831c-4b04-8e8e-be4bbc8f9731" productName="Zone Device" productDescription="Zone" productCategory="Other" productImageCaption="Zone" manufacturerName="Spotter Global" manufacturerDescription="Spotter Global, founded in 2009, develops Compact Surveillance Radar for military and commercial security. Based in Orem, Utah, it ensures high-quality, U.S.-made products with a global reach." manufacturerUrl="https://www.spotterglobal.com/" manufacturerSupportUrl="https://www.spotterglobal.com/contactus" manufacturerImage="Images.spotter.jpeg" manufacturerImageCaption="Spotter Global" secureDevice="false" networkDevice="false" name="Zone" customAttributes="DeviceOverridesChildOnlineState" productImage16x16="Images.DeviceIcons.zone16.png" productImage24x24="Images.DeviceIcons.zone24.png" productImage32x32="Images.DeviceIcons.zone32.png" productImage64x64="Images.DeviceIcons.zone64.png" videoExportFileExtension="" connectableDevice="false" raisesCustomStates="true" hidden="false">
+        <contractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="269e0728-4044-435e-b077-d4b5d11bc1a5">
+            <contractPropertyClass Id="7eefb3bd-1aeb-4e60-a169-a531ef2de5b7" name="Id" customAttributes="[CNL.IPSecurityCenter.Driver.Attributes.Validation.StringConstraint(&quot;The ID must not be empty&quot;,AllowNull = false,AllowEmpty = false)]" displayName="ID" description="Unique identifier." readOnly="true" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="d9179e67-752e-477e-b646-a1aba3ce1289">
+            <contractPropertyClass Id="737618aa-0304-4c8c-96ce-80ecc99a9b3c" name="ParentId" customAttributes="[CNL.IPSecurityCenter.Driver.Attributes.Validation.StringConstraint(&quot;The API key must not be empty&quot;,AllowNull = false)]" displayName="Parent ID" description="The parent device ID" readOnly="true" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="798aa7cb-7997-4620-a9a5-c85ca131e801">
+            <contractPropertyClass Id="fb4b8b86-cee5-47cd-8b84-27f4fae1f5eb" name="TypeString" displayName="TypeString" description="Type String" defaultValue="&quot;&quot;" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="4eca68cf-96e9-44b5-94d0-8e3feefdff64">
+            <contractPropertyClass Id="e208e4f5-16b3-4449-8103-ac7362c408c0" name="Active" displayName="Active" description="Active" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="bb4a27f1-ba19-49fc-8721-981aa768c2e2">
+            <contractPropertyClass Id="4757b61c-94eb-480f-a84d-291cb6493cc1" name="DeviceName" displayName="DeviceName" description="Device Name" />
+          </contractClassHasContractPropertyClasses>
+        </contractPropertyClasses>
+        <contractEventClasses>
+          <contractClassReferencesContractEventClasses Id="8d641aaf-2e2d-4314-88bf-730cbeeadb39">
+            <contractEventClassMoniker Id="e0da071b-4e87-4186-afae-2005c8678fd8" />
+          </contractClassReferencesContractEventClasses>
+        </contractEventClasses>
+        <builtInInterfaceClasses>
+          <contractClassReferencesBuiltInInterfaceClasses Id="36442c04-49eb-4e08-8017-e7c83bba9182">
+            <builtInInterfaceClassMoniker Id="6d3057af-3a37-46e8-9f67-1a70d39ebc49" />
+          </contractClassReferencesBuiltInInterfaceClasses>
+          <contractClassReferencesBuiltInInterfaceClasses Id="ad3ba463-b6ca-41a0-99b2-493687c28506">
+            <builtInInterfaceClassMoniker Id="f1c2c380-50b5-4110-b0bd-c5ca9d9d915d" />
+          </contractClassReferencesBuiltInInterfaceClasses>
+        </builtInInterfaceClasses>
+      </contractClass>
+    </exampleModelHasContractClasses>
+    <exampleModelHasContractClasses Id="b801013a-a45d-4ab9-9226-effbe7ffdceb">
+      <contractClass Id="09902f35-439a-4832-97c1-57ee193e9b5b" productName="UDC Device" productDescription="UDC" productCategory="Other" productImageCaption="UDC" manufacturerName="Spotter Global" manufacturerDescription="Spotter Global, founded in 2009, develops Compact Surveillance Radar for military and commercial security. Based in Orem, Utah, it ensures high-quality, U.S.-made products with a global reach." manufacturerUrl="https://www.spotterglobal.com/" manufacturerSupportUrl="https://www.spotterglobal.com/contactus" manufacturerImage="Images.spotter.jpeg" manufacturerImageCaption="Spotter Global" secureDevice="false" networkDevice="false" name="UDC" customAttributes="DeviceOverridesChildOnlineState" productImage16x16="Images.DeviceIcons.udc16.jpeg" productImage24x24="Images.DeviceIcons.udc24.jpeg" productImage32x32="Images.DeviceIcons.udc32.jpeg" productImage64x64="Images.DeviceIcons.udc64.jpeg" videoExportFileExtension="" connectableDevice="false" raisesCustomStates="true" hidden="false">
+        <contractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="51c699d9-1f41-4663-8326-2d8f7efa4003">
+            <contractPropertyClass Id="9de09a27-0c1d-46bd-8519-eb0eb4b1658e" name="Id" customAttributes="[CNL.IPSecurityCenter.Driver.Attributes.Validation.StringConstraint(&quot;The ID must not be empty&quot;,AllowNull = false,AllowEmpty = false)]" displayName="ID" description="Unique identifier." readOnly="true" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="3c0e07ce-2649-4d66-b5fa-4b2a7dd99115">
+            <contractPropertyClass Id="8e1e69c8-eae7-4960-bea2-d1be997a5ef0" name="ParentId" customAttributes="[CNL.IPSecurityCenter.Driver.Attributes.Validation.StringConstraint(&quot;The API key must not be empty&quot;,AllowNull = false)]" displayName="Parent ID" description="The parent device ID" readOnly="true" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="bc75a3ab-f67e-449b-b0a3-87279fa555e9">
+            <contractPropertyClass Id="7874eb27-dba9-47ad-afaf-c1fa2adc7b11" name="DeviceName" displayName="DeviceName" description="Device Name" defaultValue="&quot;&quot;" />
+          </contractClassHasContractPropertyClasses>
+        </contractPropertyClasses>
+        <builtInInterfaceClasses>
+          <contractClassReferencesBuiltInInterfaceClasses Id="b654f738-f3ed-4692-bcfd-59f0d660786b">
+            <builtInInterfaceClassMoniker Id="6d3057af-3a37-46e8-9f67-1a70d39ebc49" />
+          </contractClassReferencesBuiltInInterfaceClasses>
+          <contractClassReferencesBuiltInInterfaceClasses Id="cd01395c-fee4-406c-ac78-482b54dff51b">
+            <builtInInterfaceClassMoniker Id="f1c2c380-50b5-4110-b0bd-c5ca9d9d915d" />
+          </contractClassReferencesBuiltInInterfaceClasses>
+        </builtInInterfaceClasses>
+      </contractClass>
+    </exampleModelHasContractClasses>
+    <exampleModelHasContractClasses Id="429e16d4-4797-460b-b24e-15617e170b0c">
+      <contractClass Id="1d9a1e1d-eba7-41a3-9e82-64b1c112e822" productName="Camera Device" productDescription="Camera" productCategory="Other" productImageCaption="Camera" manufacturerName="Spotter Global" manufacturerDescription="Spotter Global, founded in 2009, develops Compact Surveillance Radar for military and commercial security. Based in Orem, Utah, it ensures high-quality, U.S.-made products with a global reach." manufacturerUrl="https://www.spotterglobal.com/" manufacturerSupportUrl="https://www.spotterglobal.com/contactus" manufacturerImage="Images.spotter.jpeg" manufacturerImageCaption="Spotter Global" secureDevice="false" networkDevice="false" name="Camera" customAttributes="DeviceOverridesChildOnlineState" productImage16x16="Images.DeviceIcons.camera16.png" productImage24x24="Images.DeviceIcons.camera24.png" productImage32x32="Images.DeviceIcons.camera32.png" productImage64x64="Images.DeviceIcons.camera64.png" videoExportFileExtension="" connectableDevice="false" raisesCustomStates="true" hidden="false">
+        <contractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="1d9e7cc8-62ea-48f8-82c2-93354aaac0a1">
+            <contractPropertyClass Id="abd20a92-317d-4b76-bf7b-340f2d28ce5d" name="Id" customAttributes="[CNL.IPSecurityCenter.Driver.Attributes.Validation.StringConstraint(&quot;The ID must not be empty&quot;,AllowNull = false,AllowEmpty = false)]" displayName="ID" description="Unique identifier." readOnly="true" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="3a1ef524-e2f9-4721-8fb8-bdd5094c9aac">
+            <contractPropertyClass Id="856ca1fe-b53e-4ed5-a7af-efcb67b8091b" name="ParentId" customAttributes="[CNL.IPSecurityCenter.Driver.Attributes.Validation.StringConstraint(&quot;The API key must not be empty&quot;,AllowNull = false)]" displayName="Parent ID" description="The parent device ID" readOnly="true" />
+          </contractClassHasContractPropertyClasses>
+          <contractClassHasContractPropertyClasses Id="4321e71d-98ef-4b8e-8c70-15082647cb67">
+            <contractPropertyClass Id="0c14b20e-f980-4e59-87d5-8f74b4d10f2e" name="DeviceName" displayName="DeviceName" description="Example Property for Device" defaultValue="&quot;&quot;" />
+          </contractClassHasContractPropertyClasses>
+        </contractPropertyClasses>
+        <builtInInterfaceClasses>
+          <contractClassReferencesBuiltInInterfaceClasses Id="9820de72-e032-4532-9c8b-b73f2cdddd6f">
+            <builtInInterfaceClassMoniker Id="6d3057af-3a37-46e8-9f67-1a70d39ebc49" />
+          </contractClassReferencesBuiltInInterfaceClasses>
+          <contractClassReferencesBuiltInInterfaceClasses Id="3727d676-ac21-4ee8-a924-be9376118639">
+            <builtInInterfaceClassMoniker Id="f1c2c380-50b5-4110-b0bd-c5ca9d9d915d" />
+          </contractClassReferencesBuiltInInterfaceClasses>
+        </builtInInterfaceClasses>
+      </contractClass>
+    </exampleModelHasContractClasses>
+  </contractClasses>
+  <contractMethodClasses>
+    <exampleModelHasContractMethodClasses Id="645b9a2b-d479-476e-b6ac-cf86a7d3f3e6">
+      <contractMethodClass Id="f4c38fb9-a2fa-40f6-9c6e-358e4a20ddb6" name="RefreshDevices" returnType="bool" displayName="Refresh Devices" description="Refresh the devices to match the current configuration on Generic server." isOperatorAction="false">
+        <contractMethodParameterClasses>
+          <contractMethodClassHasContractMethodParameterClasses Id="4e35bc69-2a9a-466e-92f7-6734c0d95bd2">
+            <contractMethodParameterClass Id="366e4c5a-5f89-4257-bc23-57b3d2a3686e" name="refreshProperties" displayName="Refresh Properties" description="Synchronise device properties and labels." type="bool" />
+          </contractMethodClassHasContractMethodParameterClasses>
+        </contractMethodParameterClasses>
+      </contractMethodClass>
+    </exampleModelHasContractMethodClasses>
+    <exampleModelHasContractMethodClasses Id="d036612b-8f88-46d7-9ebb-4e030477d39b">
+      <contractMethodClass Id="896d7593-e927-49d9-a390-fa3ef0e6766c" name="SampleServerMethod" displayName="Sample Server Method" description="Sample Server Method" isOperatorAction="false" />
+    </exampleModelHasContractMethodClasses>
+    <exampleModelHasContractMethodClasses Id="2a3c1339-7926-42d1-b5ac-7c8d48916659">
+      <contractMethodClass Id="81f16a50-54ce-47a6-b9c6-269f95c13ebf" name="GetDeviceDetails" displayName="Get Device Details" description="Get Device Details" isOperatorAction="false">
+        <contractMethodParameterClasses>
+          <contractMethodClassHasContractMethodParameterClasses Id="3d958229-0b41-44e1-96de-c341f4cd629a">
+            <contractMethodParameterClass Id="4971ce96-c8c7-4ea3-b2c4-e31b0880991f" name="DeviceId" displayName="Device Id" description="Device Id" />
+          </contractMethodClassHasContractMethodParameterClasses>
+        </contractMethodParameterClasses>
+      </contractMethodClass>
+    </exampleModelHasContractMethodClasses>
+  </contractMethodClasses>
+  <contractEventClasses>
+    <exampleModelHasContractEventClasses Id="5829fe5c-724a-4bcf-8a61-2c5a78403301">
+      <contractEventClass Id="4520fe50-e326-44fb-ab57-93b3c4f19cf7" name="GeospatialAwareEvent" displayName="Geospatial Aware Event" description="Geospatial Aware Event">
+        <contractEventPropertyClasses>
+          <contractEventClassHasContractEventPropertyClasses Id="bb76f03c-a3f8-4302-bb24-c188301d9bc9">
+            <contractEventPropertyClass Id="59afa3cb-a7cc-413a-87a3-a7bd9221b408" name="Description" displayName="Description" description="Event description." />
+          </contractEventClassHasContractEventPropertyClasses>
+        </contractEventPropertyClasses>
+        <eventInterfaces>
+          <contractEventClassReferencesEventInterfaces Id="8755742a-bff2-4a02-9750-675e49dc2778">
+            <eventInterfaceClassMoniker Id="018b2038-9748-4c5c-8c88-89948a9e4348" />
+          </contractEventClassReferencesEventInterfaces>
+          <contractEventClassReferencesEventInterfaces Id="cd03e431-4ab8-4c11-ad47-f1f149aeca13">
+            <eventInterfaceClassMoniker Id="de8970c0-fcbc-4da0-b651-e72cec24d5c8" />
+          </contractEventClassReferencesEventInterfaces>
+        </eventInterfaces>
+      </contractEventClass>
+    </exampleModelHasContractEventClasses>
+    <exampleModelHasContractEventClasses Id="0ad0d7f2-5ad9-4f76-9907-632e24a569ae">
+      <contractEventClass Id="65cb1061-78f2-4390-9562-a18b0d5b51da" name="DeviceEvent" displayName="Device Event" description="Generic Device Event" baseEvent="GeospatialAwareEvent">
+        <contractEventPropertyClasses>
+          <contractEventClassHasContractEventPropertyClasses Id="47e2d01c-8448-4b44-8d0e-e5d935468905">
+            <contractEventPropertyClass Id="205c7b19-3fe7-495e-9e85-23093af81f9e" name="SampleProperty" displayName="Sample Property" description="Sample Property" />
+          </contractEventClassHasContractEventPropertyClasses>
+        </contractEventPropertyClasses>
+      </contractEventClass>
+    </exampleModelHasContractEventClasses>
+    <exampleModelHasContractEventClasses Id="e1f0f0a1-3b27-4b7d-9c02-e28930d5522f">
+      <contractEventClass Id="12704d52-2054-4d5d-bcf1-6af7a781e886" name="ServerEvent" displayName="Server Event" description="Generic Server Event" baseEvent="GeospatialAwareEvent">
+        <contractEventPropertyClasses>
+          <contractEventClassHasContractEventPropertyClasses Id="cee52499-4f19-48b5-b498-7246d031b812">
+            <contractEventPropertyClass Id="4ef67c84-d309-4b31-89ee-035ffd8ffaf8" name="SampleProperty" displayName="Sample Property" description="Sample Property" />
+          </contractEventClassHasContractEventPropertyClasses>
+        </contractEventPropertyClasses>
+      </contractEventClass>
+    </exampleModelHasContractEventClasses>
+    <exampleModelHasContractEventClasses Id="15a77b3f-0a8f-4dc2-a3e0-faff071870ca">
+      <contractEventClass Id="b5e8a535-311f-43d5-aad2-dda06f192da4" name="AlarmTrackRecieved" displayName="Alarm Track Recieved" description="Alarm Track Recieved" baseEvent="GeospatialAwareEvent">
+        <contractEventPropertyClasses>
+          <contractEventClassHasContractEventPropertyClasses Id="0a1e18c8-095b-4a19-a0ec-5f354d690f00">
+            <contractEventPropertyClass Id="7a927d73-b222-4879-b8d2-058183b5ad3f" name="TrackId" displayName="Track Id" description="Track Id" />
+          </contractEventClassHasContractEventPropertyClasses>
+          <contractEventClassHasContractEventPropertyClasses Id="58c91388-3ed7-4159-8eed-3e1ff241383f">
+            <contractEventPropertyClass Id="3d01c23a-c4b4-4990-b320-338d5e0deba0" name="ObjectCategory" displayName="Object Category" description="Object Category" />
+          </contractEventClassHasContractEventPropertyClasses>
+          <contractEventClassHasContractEventPropertyClasses Id="c708705d-0b6b-4704-9ad0-de9f53b5f1ae">
+            <contractEventPropertyClass Id="9bb82e5d-3947-4266-affd-a2fb7d75c448" name="Confidence" displayName="Confidence" description="Confidence" />
+          </contractEventClassHasContractEventPropertyClasses>
+          <contractEventClassHasContractEventPropertyClasses Id="f5c0b144-363f-4e9e-8b9c-3668fb193576">
+            <contractEventPropertyClass Id="6721b4a8-d2b5-4770-beaf-f5c4efc17086" name="Longitude" type="double" displayName="Longitude" description="Longitude" />
+          </contractEventClassHasContractEventPropertyClasses>
+          <contractEventClassHasContractEventPropertyClasses Id="f08f1884-d667-46e1-ac1e-942ca07fa58e">
+            <contractEventPropertyClass Id="3f624615-5ccf-4826-8ce1-e2d1cbcb7447" name="Bearing" type="int" displayName="Bearing" description="Bearing" />
+          </contractEventClassHasContractEventPropertyClasses>
+          <contractEventClassHasContractEventPropertyClasses Id="5feb5b39-b96e-4a34-a8b2-958b77a6eae8">
+            <contractEventPropertyClass Id="946b353d-bd81-44d9-9d3c-a11cdf735755" name="Velocity" type="int" displayName="Velocity" description="Velocity" />
+          </contractEventClassHasContractEventPropertyClasses>
+          <contractEventClassHasContractEventPropertyClasses Id="189dba37-eb0d-4fe7-9ad1-6bacd373b91c">
+            <contractEventPropertyClass Id="5b78e391-b751-4b22-8a9f-06898ea9e021" name="IntialAlarmDateTime" type="DateTime" displayName="Intial Alarm Date Time" description="Intial Alarm Date Time" />
+          </contractEventClassHasContractEventPropertyClasses>
+        </contractEventPropertyClasses>
+      </contractEventClass>
+    </exampleModelHasContractEventClasses>
+    <exampleModelHasContractEventClasses Id="982c0c70-a90f-4389-9246-8367c12fc4a5">
+      <contractEventClass Id="e0da071b-4e87-4186-afae-2005c8678fd8" name="TrackUpdate" displayName="Track Update" description="Track Update" baseEvent="GeospatialAwareEvent">
+        <contractEventPropertyClasses>
+          <contractEventClassHasContractEventPropertyClasses Id="40517d7c-bd8b-44a6-8b8d-fa99b1670220">
+            <contractEventPropertyClass Id="e63c77af-c90c-46d0-86d1-910f2f067cc1" name="Altitude" type=" double" displayName="Altitude" description="Altitude" />
+          </contractEventClassHasContractEventPropertyClasses>
+          <contractEventClassHasContractEventPropertyClasses Id="1fd96955-7cf6-4e51-87cd-9c64fbeafc41">
+            <contractEventPropertyClass Id="32dcd441-ed4e-43f7-9c4d-712af3d351b5" name="Velocity" type="int" displayName="Velocity" description="Velocity" />
+          </contractEventClassHasContractEventPropertyClasses>
+          <contractEventClassHasContractEventPropertyClasses Id="7ca2ca67-a35d-4367-a286-ab73ceb8e2f4">
+            <contractEventPropertyClass Id="08b04c85-ca18-4bbd-bb01-929211fba85b" name="Bearing" type="int" displayName="Bearing" description="Bearing" />
+          </contractEventClassHasContractEventPropertyClasses>
+        </contractEventPropertyClasses>
+      </contractEventClass>
+    </exampleModelHasContractEventClasses>
+  </contractEventClasses>
+  <contractDocumentationClasses>
+    <exampleModelHasContractDocumentationClasses Id="b6ae7282-6e20-4b0d-8c8e-57b2289e9ca8">
+      <contractDocumentationClass Id="b4e03e5f-f88a-4ffc-a754-423f03dec16d" configurationDiagramImage="Images\integration.png" onlineStateMethod="None" authenticationMethod="None" webClient="false" productName="Radar" knownIssues="[]" defaultPorts="[]" additionalDetailsDocument="Documentation\AdditionalDocument.docx" newDeviceWizardImage="Images\Device Wizard Image1.PNG" newDeviceWizardImage2="Images\Device Wizard Image2.PNG">
+        <contractDocumentSupportedVersionClasses>
+          <contractDocumentationClassHasContractDocumentSupportedVersionClasses Id="a7bce0a0-0d6e-401c-8158-5749c2622834">
+            <contractDocumentSupportedVersionClass Id="3d42e5a5-e5f1-4ed5-b467-aea6c447c54b" version="5.x" />
+          </contractDocumentationClassHasContractDocumentSupportedVersionClasses>
+        </contractDocumentSupportedVersionClasses>
+        <contractDocumentSupportedOperatingSystemClasses>
+          <contractDocumentationClassHasContractDocumentSupportedOperatingSystemClasses Id="4307d763-a034-41e3-8317-5b2c75042a91">
+            <contractDocumentSupportedOperatingSystemClass Id="222ecc6a-1705-4664-96a8-63fe47c7e9b1" operatingSystem="Windows10x64" capacity="ClientSide" />
+          </contractDocumentationClassHasContractDocumentSupportedOperatingSystemClasses>
+          <contractDocumentationClassHasContractDocumentSupportedOperatingSystemClasses Id="0179e071-2591-4686-b74a-8b6a2aee14de">
+            <contractDocumentSupportedOperatingSystemClass Id="ffdbedba-3968-40ed-84e9-8189b96e842c" operatingSystem="WindowsServer2019" capacity="ServerSide" />
+          </contractDocumentationClassHasContractDocumentSupportedOperatingSystemClasses>
+        </contractDocumentSupportedOperatingSystemClasses>
+        <contractDocumentSupportedSubsystemClasses>
+          <contractDocumentationClassHasContractDocumentSupportedSubsystemClasses Id="a8c7c105-773c-454a-aac4-c6ca04c5883c">
+            <contractDocumentSupportedSubsystemClass Id="ffc412d2-c1d6-4bdf-8c77-93c204e8312b" name="Radar System" description="The GK and GX series radars use an Active Power over Ethernet connection, making installation easier and more cost effective while maintaining high performance when tracking." documentLinks="[]" versions="[]" />
+          </contractDocumentationClassHasContractDocumentSupportedSubsystemClasses>
+        </contractDocumentSupportedSubsystemClasses>
+      </contractDocumentationClass>
+    </exampleModelHasContractDocumentationClasses>
+  </contractDocumentationClasses>
+  <builtInInterfaceClasses>
+    <exampleModelHasBuiltInInterfaceClasses Id="4e4600e1-1dda-4682-afda-43def2d086a7">
+      <builtInInterfaceClass Id="6d3057af-3a37-46e8-9f67-1a70d39ebc49" interfaceType="IGeoSpatialAwareWithAlt">
+        <builtInInterfacePropertyClassed />
+      </builtInInterfaceClass>
+    </exampleModelHasBuiltInInterfaceClasses>
+    <exampleModelHasBuiltInInterfaceClasses Id="cf1e4824-4a50-43aa-aab5-8194e5faa082">
+      <builtInInterfaceClass Id="f1c2c380-50b5-4110-b0bd-c5ca9d9d915d" interfaceType="IGeoSpatialAware">
+        <builtInInterfacePropertyClassed />
+      </builtInInterfaceClass>
+    </exampleModelHasBuiltInInterfaceClasses>
+  </builtInInterfaceClasses>
+  <eventInterfaceClasses>
+    <exampleModelHasEventInterfaceClasses Id="14ada48a-27cb-470b-b92a-e8b737f76f1a">
+      <eventInterfaceClass Id="de8970c0-fcbc-4da0-b651-e72cec24d5c8" interfaceType="IGeoSpatialAwareEvent">
+        <eventInterfacePropertyClassed />
+      </eventInterfaceClass>
+    </exampleModelHasEventInterfaceClasses>
+    <exampleModelHasEventInterfaceClasses Id="296d01af-8a5d-4d03-85b2-6973df0e5f0e">
+      <eventInterfaceClass Id="018b2038-9748-4c5c-8c88-89948a9e4348" interfaceType="IGeoSpatialAwareWithAltEvent">
+        <eventInterfacePropertyClassed />
+      </eventInterfaceClass>
+    </exampleModelHasEventInterfaceClasses>
+  </eventInterfaceClasses>
+  <customStateClasses>
+    <exampleModelHasCustomStateClasses Id="938f21b4-1b8c-42be-9a76-674c89824b51">
+      <customStateClass Id="05052f01-a0b7-458d-bcaa-8bf7801f59a6" displayName="Sample State" icon="Images.CustomStates.genericStatus16.png" name="SampleState" />
+    </exampleModelHasCustomStateClasses>
+  </customStateClasses>
+</exampleModel>

@@ -1,0 +1,341 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{12625D9C-3DEA-4495-A5B0-1E7C70A7DB9D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Evbg.CC.Driver.SpotterGlobal.Radar</RootNamespace>
+    <AssemblyName>Evbg.CC.Driver.SpotterGlobal.Radar</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SonarQubeExclude>True</SonarQubeExclude>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>
+    </ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;CODE_ANALYSIS</DefineConstants>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Castle.Core, Version=5.0.0.0, Culture=neutral, PublicKeyToken=407dd0808d44fbdc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Castle.Core.5.1.1\lib\net462\Castle.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CNL.IPSecurityCenter.Driver">
+      <HintPath>..\..\..\Program Files (x86)\Everbridge\Control Center\ISDK\CNL.IPSecurityCenter.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="CNL.IPSecurityCenter.Driver.Extensions">
+      <HintPath>..\..\..\Program Files (x86)\Everbridge\Control Center\ISDK\CNL.IPSecurityCenter.Driver.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="CNL.IPSecurityCenter.Driver.UI.Common">
+      <HintPath>..\..\..\Program Files (x86)\Everbridge\Control Center\ISDK\CNL.IPSecurityCenter.Driver.UI.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="CNL.IPSecurityCenter.Driver.Utility">
+      <HintPath>..\..\..\Program Files (x86)\Everbridge\Control Center\ISDK\CNL.IPSecurityCenter.Driver.Utility.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>..\..\..\Program Files (x86)\Everbridge\Control Center\ISDK\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Moq, Version=4.20.72.0, Culture=neutral, PublicKeyToken=69f491c39445e920, processorArchitecture=MSIL">
+      <HintPath>..\packages\Moq.4.20.72\lib\net462\Moq.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connected Services\ServerService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceContracts\Camera.cs" />
+    <Compile Include="DeviceContracts\DevicePopulationQueue.cs" />
+    <Compile Include="DeviceContracts\Enums\TamperStatus.cs" />
+    <Compile Include="DeviceContracts\Radar.cs" />
+    <Compile Include="DeviceContracts\GenericParent.cs" />
+    <Compile Include="DeviceContracts\IGenericParent.cs" />
+    <Compile Include="DeviceContracts\PropertyComparer.cs" />
+    <Compile Include="DeviceContracts\UDC.cs" />
+    <Compile Include="DeviceContracts\Zone.cs" />
+    <Compile Include="Events.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Events.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Messages.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Messages.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Design.driverdesign.ContractBases.cs">
+      <DependentUpon>Design.driverdesign</DependentUpon>
+    </Compile>
+    <Compile Include="Design.driverdesign.Contracts.cs">
+      <DependentUpon>Design.driverdesign</DependentUpon>
+    </Compile>
+    <Compile Include="Design.driverdesign.CustomStates.cs">
+      <DependentUpon>Design.driverdesign</DependentUpon>
+    </Compile>
+    <Compile Include="Design.driverdesign.Events.cs">
+      <DependentUpon>Design.driverdesign</DependentUpon>
+    </Compile>
+    <Compile Include="Design.driverdesign.Strings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Design.driverdesign.Strings.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Design.driverdesign.VideoControls.cs">
+      <DependentUpon>Design.driverdesign</DependentUpon>
+    </Compile>
+    <Compile Include="DeviceContracts\CustomIds.cs" />
+    <Compile Include="DeviceContracts\DevicePopulation.cs" />
+    <Compile Include="DeviceContracts\IDdkDevice.cs" />
+    <Compile Include="DeviceDefaults.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
+    <Compile Include="DeviceContracts\RadarServer.cs" />
+    <Compile Include="DeviceContracts\Enums\DeviceType.cs" />
+    <Compile Include="GenericSimulator\GenericSimulator.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Events.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Events.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Messages.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Messages.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Design.driverdesign.Strings.resx">
+      <DependentUpon>Design.driverdesign</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Design.driverdesign.Strings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Connected Services\ServerService\ServerService.GenericDeviceInfo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServerService\ServerService.GenericEvent.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServerService\ServerService.ResponseResult.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ServerService\ServerService.wsdl" />
+    <None Include="Connected Services\ServerService\ServerService.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServerService\ServerService1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServerService\ServerService2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServerService\ServerService3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Design.diagram">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Design.driverdesign</DependentUpon>
+    </None>
+    <None Include="Design.driverdesign.diagram">
+      <DependentUpon>Design.driverdesign</DependentUpon>
+    </None>
+    <None Include="Design.driverdesign">
+      <Generator>ConnectorCodeGenerator</Generator>
+      <LastGenOutput>Design.diagram</LastGenOutput>
+    </None>
+    <None Include="Documentation\SpotterGlobalRadar_Functionality_[VERSION].docx" />
+    <None Include="Documentation\SpotterGlobalRadar_IG_[VERSION].docx" />
+    <None Include="Documentation\SpotterGlobalRadar_RN_[VERSION].docx" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <CodeAnalysisDictionary Include="ProjectCodeAnalysisDictionary.xml" />
+    <EmbeddedResource Include="Images\configurationdiagram.png" />
+    <EmbeddedResource Include="Images\manufacturerlogo.jpg" />
+    <EmbeddedResource Include="Images\DeviceIcons\server16.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\server24.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\server32.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\server64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\integration.png" />
+    <EmbeddedResource Include="Images\spotterdiagram.PNG" />
+    <EmbeddedResource Include="Images\DeviceIcons\camera16.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\camera24.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\camera32.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\camera64.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\radar16.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\radar24.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\radar32.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\radar64.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\server16.jpg" />
+    <EmbeddedResource Include="Images\DeviceIcons\server24.jpg" />
+    <EmbeddedResource Include="Images\DeviceIcons\server32.jpg" />
+    <EmbeddedResource Include="Images\DeviceIcons\server64.jpg" />
+    <EmbeddedResource Include="Images\DeviceIcons\udc16.jpeg" />
+    <EmbeddedResource Include="Images\DeviceIcons\udc24.jpeg" />
+    <EmbeddedResource Include="Images\DeviceIcons\udc32.jpeg" />
+    <EmbeddedResource Include="Images\DeviceIcons\udc64.jpeg" />
+    <EmbeddedResource Include="Images\DeviceIcons\zone16.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\zone24.png" />
+    <EmbeddedResource Include="Images\Device Wizard Image1.PNG" />
+    <EmbeddedResource Include="Images\Device Wizard Image2.PNG" />
+    <Content Include="Images\DeviceIcons\zone32.png" />
+    <Content Include="Images\DeviceIcons\zone64.png" />
+    <EmbeddedResource Include="Images\spotter.jpeg" />
+    <EmbeddedResource Include="Images\DeviceIcons\generic16.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\generic24.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\generic32.png" />
+    <EmbeddedResource Include="Images\DeviceIcons\generic64.png" />
+    <None Include="Connected Services\ServerService\configuration91.svcinfo" />
+    <None Include="Connected Services\ServerService\configuration.svcinfo" />
+    <None Include="Connected Services\ServerService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Images\CustomStates\genericStatus16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Evbg.CC.Driver.SpotterGlobal.Radar.API\Evbg.CC.Driver.SpotterGlobal.Radar.API.csproj">
+      <Project>{aa75585f-dbe7-4df6-9af2-92f930ed57ee}</Project>
+      <Name>Evbg.CC.Driver.SpotterGlobal.Radar.API</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\ServerService\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>"$(ProjectDir)..\..\..\Program Files (x86)\Everbridge\Control Center\ISDK\CNL.IPSecurityCenter.Driver.Saving.exe" "$(TargetDir) " "$(ProjectDir)..\..\package"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>del /q "$(TargetDir) *.ipscdriver"</PreBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

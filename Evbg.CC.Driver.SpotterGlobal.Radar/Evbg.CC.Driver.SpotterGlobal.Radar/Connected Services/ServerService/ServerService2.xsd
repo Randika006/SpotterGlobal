@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Evbg.CC.Driver.GenericSimulator" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Evbg.CC.Driver.GenericSimulator" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ResponseResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Type" type="tns:ResultType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ResponseResult" nillable="true" type="tns:ResponseResult" />
+  <xs:simpleType name="ResultType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Success" />
+      <xs:enumeration value="Failed" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ResultType" nillable="true" type="tns:ResultType" />
+  <xs:complexType name="ArrayOfGenericEvent">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GenericEvent" nillable="true" type="tns:GenericEvent" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGenericEvent" nillable="true" type="tns:ArrayOfGenericEvent" />
+  <xs:complexType name="GenericEvent">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AssetType" type="tns:GenericAssetType" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="DeviceId" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GeoSpatialEventData" nillable="true" type="tns:GeoSpatialEventData" />
+      <xs:element minOccurs="0" name="ServerId" type="xs:int" />
+      <xs:element minOccurs="0" name="TimestampUtc" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Type" type="tns:GenericEventType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GenericEvent" nillable="true" type="tns:GenericEvent" />
+  <xs:simpleType name="GenericAssetType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Server" />
+      <xs:enumeration value="Device" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="GenericAssetType" nillable="true" type="tns:GenericAssetType" />
+  <xs:complexType name="GeoSpatialEventData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Altitude" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Latitude" nillable="true" type="xs:double" />
+      <xs:element minOccurs="0" name="Longitude" nillable="true" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GeoSpatialEventData" nillable="true" type="tns:GeoSpatialEventData" />
+  <xs:simpleType name="GenericEventType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="GenericEvent" />
+      <xs:enumeration value="TamperStart" />
+      <xs:enumeration value="TamperEnd" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="GenericEventType" nillable="true" type="tns:GenericEventType" />
+</xs:schema>

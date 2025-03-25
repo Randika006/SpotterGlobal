@@ -1,0 +1,12 @@
+C:\SourceAcv\Evbg.CC.Driver.SpotterGlobal.Radar\Evbg.CC.Driver.SpotterGlobal.Radar.API\obj\Debug\Evbg.CC.Driver.SpotterGlobal.Radar.API.Messages.resources
+C:\SourceAcv\Evbg.CC.Driver.SpotterGlobal.Radar\Evbg.CC.Driver.SpotterGlobal.Radar.API\obj\Debug\Evbg.CC.Driver.SpotterGlobal.Radar.API.csproj.GenerateResource.cache
+C:\SourceAcv\Evbg.CC.Driver.SpotterGlobal.Radar\Evbg.CC.Driver.SpotterGlobal.Radar.API\obj\Debug\Evbg.CC.Driver.SpotterGlobal.Radar.API.csproj.CoreCompileInputs.cache
+C:\SourceAcv\Evbg.CC.Driver.SpotterGlobal.Radar\Evbg.CC.Driver.SpotterGlobal.Radar.API\bin\Debug\Evbg.CC.Driver.SpotterGlobal.Radar.API.dll
+C:\SourceAcv\Evbg.CC.Driver.SpotterGlobal.Radar\Evbg.CC.Driver.SpotterGlobal.Radar.API\bin\Debug\Evbg.CC.Driver.SpotterGlobal.Radar.API.pdb
+C:\SourceAcv\Evbg.CC.Driver.SpotterGlobal.Radar\Evbg.CC.Driver.SpotterGlobal.Radar.API\bin\Debug\log4net.dll
+C:\SourceAcv\Evbg.CC.Driver.SpotterGlobal.Radar\Evbg.CC.Driver.SpotterGlobal.Radar.API\bin\Debug\Newtonsoft.Json.dll
+C:\SourceAcv\Evbg.CC.Driver.SpotterGlobal.Radar\Evbg.CC.Driver.SpotterGlobal.Radar.API\bin\Debug\log4net.xml
+C:\SourceAcv\Evbg.CC.Driver.SpotterGlobal.Radar\Evbg.CC.Driver.SpotterGlobal.Radar.API\bin\Debug\Newtonsoft.Json.xml
+C:\SourceAcv\Evbg.CC.Driver.SpotterGlobal.Radar\Evbg.CC.Driver.SpotterGlobal.Radar.API\obj\Debug\Evbg.CC.Driver.SpotterGlobal.Radar.API.csproj.CopyComplete
+C:\SourceAcv\Evbg.CC.Driver.SpotterGlobal.Radar\Evbg.CC.Driver.SpotterGlobal.Radar.API\obj\Debug\Evbg.CC.Driver.SpotterGlobal.Radar.API.dll
+C:\SourceAcv\Evbg.CC.Driver.SpotterGlobal.Radar\Evbg.CC.Driver.SpotterGlobal.Radar.API\obj\Debug\Evbg.CC.Driver.SpotterGlobal.Radar.API.pdb

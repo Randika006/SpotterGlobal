@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<designDiagram dslVersion="1.0.0.0" Id="0280be2a-5a62-49df-ae90-8b0b78849f15" absoluteBounds="0, 0, 15.875, 10.125" name="VideoDesign">
+  <exampleModelMoniker Id="09688583-9102-4fcd-ae49-1bfe8efc314d" />
+  <nestedChildShapes>
+    <contractShape Id="7c2e8af7-e916-4369-b31b-7a460b8b6c28" absoluteBounds="3, 3.5, 1.875, 2.0131982421874994">
+      <contractClassMoniker Id="9f18da99-448d-4aff-bef2-5682f542e696" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bca9d3b8-3eab-4a4d-a1bc-f057835b059d" absoluteBounds="3.0149999999999997, 4.01, 1.8450000000000002, 1.4031982421875" name="ContractShapePropertyCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractShape>
+    <customStateShape Id="588027ff-065c-4df6-a79d-6e814dae6bef" absoluteBounds="8.25, 5.125, 1.25, 0.5">
+      <customStateClassMoniker Id="05052f01-a0b7-458d-bcaa-8bf7801f59a6" />
+    </customStateShape>
+    <contractShape Id="d4551587-160c-4783-92fe-65d8f8230618" absoluteBounds="7.875, 3.5, 1.75, 1.4362939453124994">
+      <contractClassMoniker Id="2dd4b820-8647-466e-9d75-91cb3600149b" />
+      <nestedChildShapes>
+        <elementListCompartment Id="24ae1b1f-35b4-4722-91cc-84b99fa6e0b0" absoluteBounds="7.89, 4.01, 1.7200000000000002, 0.8262939453125" name="ContractShapePropertyCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractShape>
+    <builtInInterfaceTypeShape Id="01e0a38a-6cab-4f67-95ca-d82b4d3dcecc" absoluteBounds="5.375, 2.75, 1.5, 1.570470377604166">
+      <builtInInterfaceClassMoniker Id="6d3057af-3a37-46e8-9f67-1a70d39ebc49" />
+      <nestedChildShapes>
+        <elementListCompartment Id="d9b8b0f8-20af-4d16-a583-0d834122bca8" absoluteBounds="5.3900000000000006, 3.26, 1.4700000000000002, 0.44169108072916663" name="Properties" titleTextColor="Black" itemTextColor="Gray" />
+        <elementListCompartment Id="f81e9883-70b6-4152-ad9e-f9a014dda456" absoluteBounds="5.39, 3.7116910807291665, 1.4700000000000002, 0.2493896484375" name="Methods" titleTextColor="Black" itemTextColor="Gray" />
+        <elementListCompartment Id="8170d4ec-604d-455c-b7bc-f213264e6118" absoluteBounds="5.39, 3.9710807291666663, 1.4700000000000002, 0.2493896484375" name="Events" titleTextColor="Black" itemTextColor="Gray" />
+      </nestedChildShapes>
+    </builtInInterfaceTypeShape>
+    <contractBuiltInInterfaceConnector Id="9fadc04e-83e3-4713-9911-1fed70b76344" edgePoints="[(7.875 : 3.92023518880208); (6.875 : 3.92023518880208)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesBuiltInInterfaceClassesMoniker Id="c20966bf-afb2-4ab2-983c-d4c882f0d298" />
+      <nodes>
+        <contractShapeMoniker Id="d4551587-160c-4783-92fe-65d8f8230618" />
+        <builtInInterfaceTypeShapeMoniker Id="01e0a38a-6cab-4f67-95ca-d82b4d3dcecc" />
+      </nodes>
+    </contractBuiltInInterfaceConnector>
+    <contractDocumentationShape Id="f7adb8f5-b667-4fb5-b701-539f5f941a9a" absoluteBounds="0.5, 3.375, 2, 2.9255436197916662">
+      <contractDocumentationClassMoniker Id="b4e03e5f-f88a-4ffc-a754-423f03dec16d" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8e7ec7a3-cc0a-4793-b6e9-58f7b3894854" absoluteBounds="0.51500000000000012, 3.885, 1.9700000000000002, 0.44169108072916663" name="SupportedVersionsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="0aeaff74-d8bd-4ce4-a0cc-0af0d4e554ae" absoluteBounds="0.515, 4.3366910807291665, 1.9700000000000002, 0.63399251302083326" name="SupportedOperatingSystemsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="bf60e424-c821-4e18-b133-5e1dcba29d07" absoluteBounds="0.515, 4.98068359375, 1.9700000000000002, 0.2493896484375" name="SupportedHardwareCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="685cf3b1-cd97-4355-9f7b-19d259e1d49a" absoluteBounds="0.515, 5.2400732421875, 1.9700000000000002, 0.2493896484375" name="IncompatibleDevicesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="18876dcb-504a-4e0d-b9ae-3adbfc1b15b1" absoluteBounds="0.515, 5.499462890625, 1.9700000000000002, 0.2493896484375" name="SupportedSdkVersionsCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="c1b38f7e-822c-4780-a583-5d24dacf0bdc" absoluteBounds="0.515, 5.7588525390625, 1.9700000000000002, 0.44169108072916652" name="SupportedSubsystemsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractDocumentationShape>
+    <contractDocumentConnector Id="e679fcca-0182-4d53-9f92-f7d5acd5a70d" edgePoints="[(3 : 4.50659912109375); (2.5 : 4.50659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <contractClassReferencesContractDocumentationClassMoniker Id="bd532fe3-c1f3-4927-b463-417a0c74599f" />
+      <nodes>
+        <contractShapeMoniker Id="7c2e8af7-e916-4369-b31b-7a460b8b6c28" />
+        <contractDocumentationShapeMoniker Id="f7adb8f5-b667-4fb5-b701-539f5f941a9a" />
+      </nodes>
+    </contractDocumentConnector>
+    <contractCustomStateConnector Id="35ded58e-a56e-4531-9a4d-5cfa3aea27ad" edgePoints="[(8.56109725190976 : 4.9362939453125); (8.56109725190976 : 5.125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesCustomStateClassesMoniker Id="7485406b-0bcf-47bb-8e4c-37a7eb4d2e25" />
+      <nodes>
+        <contractShapeMoniker Id="d4551587-160c-4783-92fe-65d8f8230618" />
+        <customStateShapeMoniker Id="588027ff-065c-4df6-a79d-6e814dae6bef" />
+      </nodes>
+    </contractCustomStateConnector>
+    <builtInInterfaceTypeShape Id="5f4e1d7d-0995-447b-8ebe-febf70056786" absoluteBounds="5.375, 4.5, 1.5, 1.9550732421875003">
+      <builtInInterfaceClassMoniker Id="f1c2c380-50b5-4110-b0bd-c5ca9d9d915d" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b504e77f-15d6-482f-906c-79af1e6378e0" absoluteBounds="5.3900000000000006, 5.01, 1.4700000000000002, 0.8262939453125" name="Properties" titleTextColor="Black" itemTextColor="Gray" />
+        <elementListCompartment Id="d2a9238b-02bb-4b47-80fa-fe226fab3643" absoluteBounds="5.3900000000000006, 5.8462939453125, 1.4700000000000002, 0.2493896484375" name="Methods" titleTextColor="Black" itemTextColor="Gray" />
+        <elementListCompartment Id="3964cf5f-7b10-416c-ac85-2cc6577c2a3e" absoluteBounds="5.3900000000000006, 6.10568359375, 1.4700000000000002, 0.2493896484375" name="Events" titleTextColor="Black" itemTextColor="Gray" />
+      </nestedChildShapes>
+    </builtInInterfaceTypeShape>
+    <contractBuiltInInterfaceConnector Id="40d557dc-af88-45e9-b281-e77936397e3e" edgePoints="[(7.875 : 4.71814697265625); (6.875 : 4.71814697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesBuiltInInterfaceClassesMoniker Id="c9cf4f0a-18d8-4b5c-bebc-e6fac6ff0f4c" />
+      <nodes>
+        <contractShapeMoniker Id="d4551587-160c-4783-92fe-65d8f8230618" />
+        <builtInInterfaceTypeShapeMoniker Id="5f4e1d7d-0995-447b-8ebe-febf70056786" />
+      </nodes>
+    </contractBuiltInInterfaceConnector>
+    <eventInterfaceTypeShape Id="87214b66-3a2b-46a2-bdec-c32a787257a7" absoluteBounds="7.75, 8, 1.875, 1.8208968098958334">
+      <eventInterfaceClassMoniker Id="de8970c0-fcbc-4da0-b651-e72cec24d5c8" />
+      <nestedChildShapes>
+        <elementListCompartment Id="9965cf5a-b0f1-4998-8083-41079121c29f" absoluteBounds="7.765, 8.51, 1.8450000000000002, 1.2108968098958333" name="Properties" titleTextColor="Black" itemTextColor="Gray" />
+      </nestedChildShapes>
+    </eventInterfaceTypeShape>
+    <contractEventShape Id="9d68e14e-e225-4512-827e-bcc17babc5a7" absoluteBounds="5.5, 7.125, 1.5, 1.0516910807291664">
+      <contractEventClassMoniker Id="4520fe50-e326-44fb-ab57-93b3c4f19cf7" />
+      <nestedChildShapes>
+        <elementListCompartment Id="72075497-4a28-4a8b-89a6-a36824afe202" absoluteBounds="5.5150000000000006, 7.635, 1.4700000000000002, 0.44169108072916663" name="ContractEventShapePropertyCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractEventShape>
+    <eventEventInterfaceConnector Id="8ec4de64-d1aa-4d88-8de7-34cfe3bd181b" edgePoints="[(6.25 : 8.17669108072917); (6.25 : 8.9987944453125); (7.75 : 8.9987944453125)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractEventClassReferencesEventInterfacesMoniker Id="cd03e431-4ab8-4c11-ad47-f1f149aeca13" />
+      <nodes>
+        <contractEventShapeMoniker Id="9d68e14e-e225-4512-827e-bcc17babc5a7" />
+        <eventInterfaceTypeShapeMoniker Id="87214b66-3a2b-46a2-bdec-c32a787257a7" />
+      </nodes>
+    </eventEventInterfaceConnector>
+    <eventInterfaceTypeShape Id="b9be805c-b335-4f85-b1ac-e063d8a4bf37" absoluteBounds="3.5, 7.25, 1.5, 1.2439925130208334">
+      <eventInterfaceClassMoniker Id="018b2038-9748-4c5c-8c88-89948a9e4348" />
+      <nestedChildShapes>
+        <elementListCompartment Id="04441f03-4cb9-4512-8260-1a7131569290" absoluteBounds="3.515, 7.76, 1.4700000000000002, 0.63399251302083326" name="Properties" titleTextColor="Black" itemTextColor="Gray" />
+      </nestedChildShapes>
+    </eventInterfaceTypeShape>
+    <eventEventInterfaceConnector Id="f58d8eac-ca7c-40fb-bebd-bbadb419a80f" edgePoints="[(5.5 : 7.71334554036458); (5 : 7.71334554036458)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractEventClassReferencesEventInterfacesMoniker Id="8755742a-bff2-4a02-9750-675e49dc2778" />
+      <nodes>
+        <contractEventShapeMoniker Id="9d68e14e-e225-4512-827e-bcc17babc5a7" />
+        <eventInterfaceTypeShapeMoniker Id="b9be805c-b335-4f85-b1ac-e063d8a4bf37" />
+      </nodes>
+    </eventEventInterfaceConnector>
+    <contractMethodShape Id="61c38810-a953-4223-a824-926b157aae1e" absoluteBounds="3.875, 1, 1.5, 1.0516910807291664">
+      <contractMethodClassMoniker Id="f4c38fb9-a2fa-40f6-9c6e-358e4a20ddb6" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac2013ab-3208-4437-9789-80245db328fd" absoluteBounds="3.8900000000000006, 1.5099999999999998, 1.4700000000000002, 0.44169108072916663" name="ContractMethodShapeParameterCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractMethodShape>
+    <contractMethodConnector Id="ac515d24-2beb-41bd-b7a3-86e56760ecee" edgePoints="[(4.375 : 3.5); (4.375 : 2.05169108072917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesContractMethodClassesMoniker Id="b7c65800-594d-4db6-b330-4f898c32ac64" />
+      <nodes>
+        <contractShapeMoniker Id="7c2e8af7-e916-4369-b31b-7a460b8b6c28" />
+        <contractMethodShapeMoniker Id="61c38810-a953-4223-a824-926b157aae1e" />
+      </nodes>
+    </contractMethodConnector>
+    <contractEventShape Id="a2335db1-81a3-44c9-8728-5b80c1f76aef" absoluteBounds="7.125, 6.75, 1.5, 1.0516910807291664">
+      <contractEventClassMoniker Id="65cb1061-78f2-4390-9562-a18b0d5b51da" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b0f65201-5464-44da-b071-afa31ed61491" absoluteBounds="7.1400000000000006, 7.26, 1.4700000000000002, 0.44169108072916663" name="ContractEventShapePropertyCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractEventShape>
+    <contractEventConnector Id="35c7c863-a8ff-4df3-8c88-fa666b0d432c" edgePoints="[(8.03125 : 4.9362939453125); (8.03125 : 6.75)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesContractEventClassesMoniker Id="4363fcfd-c4c6-4579-8770-cdd9ec85dfa4" />
+      <nodes>
+        <contractShapeMoniker Id="d4551587-160c-4783-92fe-65d8f8230618" />
+        <contractEventShapeMoniker Id="a2335db1-81a3-44c9-8728-5b80c1f76aef" />
+      </nodes>
+    </contractEventConnector>
+    <contractEventShape Id="6134e1b3-d558-4367-8de3-919a758f32b0" absoluteBounds="2.875, 5.625, 1.5, 1.0516910807291664">
+      <contractEventClassMoniker Id="12704d52-2054-4d5d-bcf1-6af7a781e886" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2ef04b89-b646-4907-8701-5506ec303675" absoluteBounds="2.89, 6.135, 1.4700000000000002, 0.44169108072916663" name="ContractEventShapePropertyCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractEventShape>
+    <contractEventConnector Id="b05a975c-e309-4eac-8433-7c41273e8d19" edgePoints="[(3.6875 : 5.5131982421875); (3.6875 : 5.625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesContractEventClassesMoniker Id="44f902e2-00ab-43ce-87a0-b2ca704882de" />
+      <nodes>
+        <contractShapeMoniker Id="7c2e8af7-e916-4369-b31b-7a460b8b6c28" />
+        <contractEventShapeMoniker Id="6134e1b3-d558-4367-8de3-919a758f32b0" />
+      </nodes>
+    </contractEventConnector>
+    <contractMethodShape Id="da524337-77a5-4234-867d-611bdf525080" absoluteBounds="2.125, 1, 1.625, 0.85938964843749988">
+      <contractMethodClassMoniker Id="896d7593-e927-49d9-a390-fa3ef0e6766c" />
+      <nestedChildShapes>
+        <elementListCompartment Id="38330a93-c817-40fe-b9f5-5066d0dbba9e" absoluteBounds="2.14, 1.51, 1.5950000000000002, 0.2493896484375" name="ContractMethodShapeParameterCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractMethodShape>
+    <contractMethodConnector Id="07d216f8-5dc0-43d0-a670-a1cda94cdf5d" edgePoints="[(3.375 : 3.5); (3.375 : 1.8593896484375)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesContractMethodClassesMoniker Id="47c8347a-c22e-4718-891b-8b3076d56f2c" />
+      <nodes>
+        <contractShapeMoniker Id="7c2e8af7-e916-4369-b31b-7a460b8b6c28" />
+        <contractMethodShapeMoniker Id="da524337-77a5-4234-867d-611bdf525080" />
+      </nodes>
+    </contractMethodConnector>
+    <contractMethodShape Id="71169c93-2c85-4802-95fd-9915adffcd7d" absoluteBounds="7.875, 1, 1.5, 1.0516910807291668">
+      <contractMethodClassMoniker Id="81f16a50-54ce-47a6-b9c6-269f95c13ebf" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8b0d8c93-ad98-43f8-a4e4-e93f7aa89647" absoluteBounds="7.8900000000000006, 1.5099999999999998, 1.4700000000000002, 0.44169108072916663" name="ContractMethodShapeParameterCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractMethodShape>
+    <contractMethodConnector Id="062d1a6e-97ad-4ab5-87ed-b5da0b0f8f5c" edgePoints="[(8.625 : 3.5); (8.625 : 2.05169108072917)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesContractMethodClassesMoniker Id="8c48545e-1f36-44d0-905c-8d84ec71fb5e" />
+      <nodes>
+        <contractShapeMoniker Id="d4551587-160c-4783-92fe-65d8f8230618" />
+        <contractMethodShapeMoniker Id="71169c93-2c85-4802-95fd-9915adffcd7d" />
+      </nodes>
+    </contractMethodConnector>
+    <contractEventShape Id="2e2b3a33-243c-4479-b316-e47bb96d98f9" absoluteBounds="9.875, 7.375, 1.625, 2.2054996744791655">
+      <contractEventClassMoniker Id="b5e8a535-311f-43d5-aad2-dda06f192da4" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb09fab2-8559-46b1-a7f2-131d055b2d2e" absoluteBounds="9.89, 7.885, 1.5950000000000002, 1.5954996744791667" name="ContractEventShapePropertyCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractEventShape>
+    <contractEventConnector Id="e3c72a3c-822f-4f04-9bad-ce739752420f" edgePoints="[(8.99719450381953 : 4.9362939453125); (8.99719450381953 : 5.135); (9.79166666666667 : 5.135 : JumpStart); (9.95833333333333 : 5.135 : JumpEnd); (10.7545027135621 : 5.135); (10.7545027135621 : 7.375)]" manuallyRouted="true" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesContractEventClassesMoniker Id="1355ba73-01fb-44e8-835a-e07c3ab63e2d" />
+      <nodes>
+        <contractShapeMoniker Id="d4551587-160c-4783-92fe-65d8f8230618" />
+        <contractEventShapeMoniker Id="2e2b3a33-243c-4479-b316-e47bb96d98f9" />
+      </nodes>
+    </contractEventConnector>
+    <contractShape Id="74eda367-6048-4023-9126-427bd2f277d6" absoluteBounds="11.125, 5, 1.5, 1.8208968098958325">
+      <contractClassMoniker Id="def074ab-831c-4b04-8e8e-be4bbc8f9731" />
+      <nestedChildShapes>
+        <elementListCompartment Id="47a8f5c1-e08a-4850-b8f5-f26dfc021673" absoluteBounds="11.14, 5.51, 1.4700000000000002, 1.2108968098958333" name="ContractShapePropertyCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractShape>
+    <contractShape Id="c2b60178-7339-4197-952a-2e8fc80806dd" absoluteBounds="14.125, 6.625, 1.5, 1.4362939453124999">
+      <contractClassMoniker Id="09902f35-439a-4832-97c1-57ee193e9b5b" />
+      <nestedChildShapes>
+        <elementListCompartment Id="10da5429-eb80-404c-977f-d9770b93eca7" absoluteBounds="14.14, 7.135, 1.4700000000000002, 0.8262939453125" name="ContractShapePropertyCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractShape>
+    <contractShape Id="f679a201-1136-4566-b825-0eee09d099b0" absoluteBounds="13, 4.375, 1.5, 1.4362939453124999">
+      <contractClassMoniker Id="1d9a1e1d-eba7-41a3-9e82-64b1c112e822" />
+      <nestedChildShapes>
+        <elementListCompartment Id="760719c9-7df1-4e3d-bb20-7739386b6e7c" absoluteBounds="13.015, 4.885, 1.4700000000000002, 0.8262939453125" name="ContractShapePropertyCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractShape>
+    <contractBuiltInInterfaceConnector Id="19a751ce-9933-4e55-8d6e-df8e7ade943a" edgePoints="[(13.75 : 4.375); (13.75 : 3.02328549316406); (8.70833333333333 : 3.02328549316406 : JumpStart); (8.54166666666667 : 3.02328549316406 : JumpEnd); (6.875 : 3.02328549316406)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesBuiltInInterfaceClassesMoniker Id="9820de72-e032-4532-9c8b-b73f2cdddd6f" />
+      <nodes>
+        <contractShapeMoniker Id="f679a201-1136-4566-b825-0eee09d099b0" />
+        <builtInInterfaceTypeShapeMoniker Id="01e0a38a-6cab-4f67-95ca-d82b4d3dcecc" />
+      </nodes>
+    </contractBuiltInInterfaceConnector>
+    <contractBuiltInInterfaceConnector Id="fdf85c87-8424-43a0-a091-e2b1abbaa714" edgePoints="[(13.75 : 4.375); (13.75 : 4.125); (11.9583333333333 : 4.125 : JumpStart); (11.7916666666667 : 4.125 : JumpEnd); (10.875 : 4.125); (10.875 : 5.875); (10.8378360468954 : 5.875 : JumpStart); (10.6711693802288 : 5.875 : JumpEnd); (9.95833333333333 : 5.875 : JumpStart); (9.79166666666667 : 5.875 : JumpEnd); (8.11458333333333 : 5.875 : JumpStart); (7.94791666666667 : 5.875 : JumpEnd); (7.58333333333333 : 5.875 : JumpStart); (7.41666666666667 : 5.875 : JumpEnd); (7.25 : 5.875); (7.25 : 5.47753662109375); (6.875 : 5.47753662109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesBuiltInInterfaceClassesMoniker Id="3727d676-ac21-4ee8-a924-be9376118639" />
+      <nodes>
+        <contractShapeMoniker Id="f679a201-1136-4566-b825-0eee09d099b0" />
+        <builtInInterfaceTypeShapeMoniker Id="5f4e1d7d-0995-447b-8ebe-febf70056786" />
+      </nodes>
+    </contractBuiltInInterfaceConnector>
+    <contractBuiltInInterfaceConnector Id="02ee71b0-4ac7-40a4-99b2-88cf0cbe7f45" edgePoints="[(11.875 : 5); (11.875 : 3.26164524658203); (8.70833333333333 : 3.26164524658203 : JumpStart); (8.54166666666667 : 3.26164524658203 : JumpEnd); (6.875 : 3.26164524658203)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesBuiltInInterfaceClassesMoniker Id="36442c04-49eb-4e08-8017-e7c83bba9182" />
+      <nodes>
+        <contractShapeMoniker Id="74eda367-6048-4023-9126-427bd2f277d6" />
+        <builtInInterfaceTypeShapeMoniker Id="01e0a38a-6cab-4f67-95ca-d82b4d3dcecc" />
+      </nodes>
+    </contractBuiltInInterfaceConnector>
+    <contractBuiltInInterfaceConnector Id="eeaa1f4c-cc25-471a-8a2a-af4441a6c387" edgePoints="[(11.125 : 6.22753662109375); (10.8378360468954 : 6.22753662109375 : JumpStart); (10.6711693802288 : 6.22753662109375 : JumpEnd); (8.11458333333333 : 6.22753662109375 : JumpStart); (7.94791666666667 : 6.22753662109375 : JumpEnd); (6.875 : 6.22753662109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesBuiltInInterfaceClassesMoniker Id="ad3ba463-b6ca-41a0-99b2-493687c28506" />
+      <nodes>
+        <contractShapeMoniker Id="74eda367-6048-4023-9126-427bd2f277d6" />
+        <builtInInterfaceTypeShapeMoniker Id="5f4e1d7d-0995-447b-8ebe-febf70056786" />
+      </nodes>
+    </contractBuiltInInterfaceConnector>
+    <contractBuiltInInterfaceConnector Id="9b9c06e8-6085-4b01-8fcc-f9dbbedec4da" edgePoints="[(15.09375 : 6.625); (15.09375 : 2.85539024658203); (8.70833333333333 : 2.85539024658203 : JumpStart); (8.54166666666667 : 2.85539024658203 : JumpEnd); (6.875 : 2.85539024658203)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesBuiltInInterfaceClassesMoniker Id="b654f738-f3ed-4692-bcfd-59f0d660786b" />
+      <nodes>
+        <contractShapeMoniker Id="c2b60178-7339-4197-952a-2e8fc80806dd" />
+        <builtInInterfaceTypeShapeMoniker Id="01e0a38a-6cab-4f67-95ca-d82b4d3dcecc" />
+      </nodes>
+    </contractBuiltInInterfaceConnector>
+    <contractBuiltInInterfaceConnector Id="6cee38c9-e37b-424b-ae1a-eb80e5b05a9e" edgePoints="[(14.578123 : 6.625); (14.578123 : 6.0612939453125); (12.875 : 6.0612939453125); (12.875 : 4.75); (11.9583333333333 : 4.75 : JumpStart); (11.7916666666667 : 4.75 : JumpEnd); (10.9583333333333 : 4.75 : JumpStart); (10.7916666666667 : 4.75 : JumpEnd); (9.875 : 4.75); (9.875 : 6); (8.11458333333333 : 6 : JumpStart); (7.94791666666667 : 6 : JumpEnd); (7.5 : 6); (7.5 : 5.47753662109375); (6.875 : 5.47753662109375)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesBuiltInInterfaceClassesMoniker Id="cd01395c-fee4-406c-ac78-482b54dff51b" />
+      <nodes>
+        <contractShapeMoniker Id="c2b60178-7339-4197-952a-2e8fc80806dd" />
+        <builtInInterfaceTypeShapeMoniker Id="5f4e1d7d-0995-447b-8ebe-febf70056786" />
+      </nodes>
+    </contractBuiltInInterfaceConnector>
+    <contractEventShape Id="e51323de-1b0b-48b4-8d24-fc9628eb9600" absoluteBounds="11.75, 7.5, 1.5, 1.4362939453124994">
+      <contractEventClassMoniker Id="e0da071b-4e87-4186-afae-2005c8678fd8" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b15fc30c-c40a-41a8-a4ae-30aaa62424e9" absoluteBounds="11.765, 8.01, 1.4700000000000002, 0.8262939453125" name="ContractEventShapePropertyCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </contractEventShape>
+    <contractEventConnector Id="07662d1e-5624-47b6-8765-609d48244b3f" edgePoints="[(12.1875 : 6.82089680989583); (12.1875 : 7.5)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <contractClassReferencesContractEventClassesMoniker Id="8d641aaf-2e2d-4314-88bf-730cbeeadb39" />
+      <nodes>
+        <contractShapeMoniker Id="74eda367-6048-4023-9126-427bd2f277d6" />
+        <contractEventShapeMoniker Id="e51323de-1b0b-48b4-8d24-fc9628eb9600" />
+      </nodes>
+    </contractEventConnector>
+  </nestedChildShapes>
+</designDiagram>
